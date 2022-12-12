@@ -11,4 +11,6 @@ module lab5 {
     opens lab5.api to javafx.fxml;
     exports lab5.graphs;
     opens lab5.graphs to javafx.fxml;
+    exports lab5.geometry;
+    opens lab5.geometry to javafx.fxml;
 }

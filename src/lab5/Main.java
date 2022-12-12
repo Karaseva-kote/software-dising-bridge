@@ -70,7 +70,7 @@ public class Main {
 		for (int i = 0; i < m; i++) {
 			int a = scanner.nextInt();
 			int b = scanner.nextInt();
-			result.add(new Edge(a, b));
+			result.add(new Edge(a - 1, b - 1));
 		}
 		return result;
 	}
